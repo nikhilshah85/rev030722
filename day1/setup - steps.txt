@@ -1,0 +1,34 @@
+1. Open VS Code
+2. File -> open folder, choose a folder from your desktop (create a sample one for test)
+3. open the terminal, ctrl + ~
+4. dotnet new console --name lavies_firstapp
+5. cd firstapp
+6. dotnet build
+7. dotnet run
+8. open program.cs, 
+	 Console.ReadLine();
+         Console.WriteLine("Hello and welcome to the world of .net core, C# says Hi");
+9. repeat step 6 and 7, see the output
+----------------------------------------------------------------
+
+complete above and we will proceed with next step
+
+10. Create a new github account at 
+	https://github.com
+11. download and install Git
+	https://git-scm.com/downloads
+------------------------------------------------------------------
+12. create a new folder - training_sessions
+13. open an command prompt for the new folder - training_sessions
+14. fire command - git clone https://github.com/nikhilshah85/rev030722.git (this will create a folder - rev030722)
+15. be inside the rev030722 - fire git pull (this command will download the project bankingAPP inside rev030722 folder)
+	try step 15 again - 
+----------------
+	Day 1 setup done
+		.net core 5.x with .net core cli 
+		visual studio code
+		git for your OS
+
+		create, compile, run the first project
+		push the project to github
+		pull on your local machine
