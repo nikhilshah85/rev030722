@@ -1,0 +1,5 @@
+Hunt -
+What is the difference beteween 
+	Functional Language (give name of some languages, eg. F#)
+	Object Oriented  language (give name of some languages, eg. C#)
+	Object based language (give name of some languages, eg. VB 6.0)
