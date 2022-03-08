@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace collections
 {
     class Program
@@ -45,29 +46,37 @@ namespace collections
             int sum_of_numbers = 0;
             int total_even_numbers = 0;
             int total_odd_numbers = 0;
-
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                sum_of_numbers += numbers[i];
-                if(numbers[i] % 2 == 0)
-                {
-                    total_even_numbers += 1;
-                    
-                }
-                else
-                {
-                    total_odd_numbers+=1;
-                }
-            }
+            string name = "Nik";
+            bool isPermenant = true;
 
 
-            Console.WriteLine("Total of all your numbers are " + sum_of_numbers);
-            Console.WriteLine("Total Even Numbers are " + total_even_numbers);
-            Console.WriteLine("Total Odd Numbers are " + total_odd_numbers);
+            Console.WriteLine(sum_of_numbers.GetType());
+            Console.WriteLine(name.GetType());
+            Console.WriteLine(isPermenant.GetType());
+ 
+            // for (int i = 0; i < numbers.Length; i++)
+            // {
+            //     sum_of_numbers += numbers[i];
+            //     if(numbers[i] % 2 == 0)
+            //     {
+            //         total_even_numbers += 1;                    
+            //     }
+            //     else
+            //     {
+            //         total_odd_numbers+=1;
+            //     }
+            // }
+
+
+            // Console.WriteLine("Total of all your numbers are " + sum_of_numbers);
+            // Console.WriteLine("Total Even Numbers are " + total_even_numbers);
+            // Console.WriteLine("Total Odd Numbers are " + total_odd_numbers);
 
 
 
 
+
+            
 
 
         }
