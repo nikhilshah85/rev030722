@@ -79,7 +79,7 @@ namespace input_output
                 // detail += info; //short hand
                 
             }
-            Console.Clear();
+           Console.Clear();
             Console.WriteLine(detail);
                 
 
