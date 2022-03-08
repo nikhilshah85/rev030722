@@ -36,34 +36,52 @@ namespace input_output
 
 
 
-            Console.WriteLine("Enter A Number to get the review");
-            int v_Number = Convert.ToInt32(Console.ReadLine());
+            // Console.WriteLine("Enter A Number to get the review");
+            // int v_Number = Convert.ToInt32(Console.ReadLine());
 
-            if (v_Number < 0)
-            {
-                Console.WriteLine("This is a Negative number");
-            }
-            else if(v_Number > 0 && v_Number < 5)
-            {
-                Console.WriteLine("Average Number");
-            }
-            else if(v_Number > 5 && v_Number < 10)
-            {
-                System.Console.WriteLine("Good Number");                
+            // if (v_Number < 0)
+            // {
+            //     Console.WriteLine("This is a Negative number");
+            // }
+            // else if(v_Number > 0 && v_Number < 5)
+            // {
+            //     Console.WriteLine("Average Number");
+            // }
+            // else if(v_Number > 5 && v_Number < 10)
+            // {
+            //     System.Console.WriteLine("Good Number");                
+                
+            // }
+            // else if(v_Number > 10 && v_Number < 20)
+            // {
+            //     System.Console.WriteLine("Very good Number");
+            // }
+            // else if(v_Number > 20)
+            // {
+            //     System.Console.WriteLine("Excellent Number");
+            // }
+            // else
+            // {
+            //     System.Console.WriteLine("Something went wrong, please try again later");
+            // }
+
+
+
+            Console.WriteLine("Tell me something about your self");
+
+            string info = "";
+            string detail = "";
+
+            while (info != "Thank You")
+            {       
+                info =  Console.ReadLine();
+                detail = detail + " " + info;
+                // detail += info; //short hand
                 
             }
-            else if(v_Number > 10 && v_Number < 20)
-            {
-                System.Console.WriteLine("Very good Number");
-            }
-            else if(v_Number > 20)
-            {
-                System.Console.WriteLine("Excellent Number");
-            }
-            else
-            {
-                System.Console.WriteLine("Something went wrong, please try again later");
-            }
+            Console.Clear();
+            Console.WriteLine(detail);
+                
 
 
 
