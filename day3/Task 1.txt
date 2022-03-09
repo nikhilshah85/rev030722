@@ -1,0 +1,34 @@
+Create a new Project - console app - oops_task1
+
+in the app, add a new class
+	Accounts.cs
+		add below 6 properties (in a new c# way) - prop
+
+		decorate the same with region - Properties
+			accNo, accName, accType, accBalance, accIsActive, accEmail
+
+		have the below methods
+			1. widraw(amount)
+			2. deposit(amount)
+			3. getAccountDetails() - print information about the account
+				Account No: --
+				     Name : --
+				     Type : --
+				   Balance: --
+				     Email: --
+			4. CheckBalance
+				
+		Decorate them in Region - Account Methods
+			Add 3 sub regions for every method
+
+		in the program.cs Create a menu screen
+			1. Create New Account (collect all the details from user)
+			2. Check Balance
+			3. Widraw
+			4. deposit
+			5. Get details
+			6. Exit
+		
+
+
+

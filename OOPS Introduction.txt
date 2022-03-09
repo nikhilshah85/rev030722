@@ -4,7 +4,7 @@
 
 			Object - is an Real world entity 
 			
-				Object has - Properties
+				Object has - Properties - get and setter methods 
 					   - Methods / Functions / Reactions
 					   - Events 
 
@@ -49,7 +49,12 @@ This is a technique of compiler called "Name mangling"
 				is a design file (document)
 			
 
+		You use a new keyword to instanciate a new Object of a class
+					 (create a new object of a class)
 
+			values are stored in a private variable
+			we use properties to get the value and set the value to variables
+				properties are public in nature
 
 
 
