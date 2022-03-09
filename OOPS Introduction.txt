@@ -1,0 +1,68 @@
+
+
+			Object Oriented Programming (OOP / OOPS)
+
+			Object - is an Real world entity 
+			
+				Object has - Properties
+					   - Methods / Functions / Reactions
+					   - Events 
+
+
+			4 Pillars to design an object
+				Abstraction
+				Encapsulation
+				Inheritance
+				Polymorphism
+
+			Abstraction - Consider only those properties and methods needed for software
+				eg. Banking software - blood group may not be important
+					height
+				u will also strore the info in a database
+				    but, for hospital software
+			Encapsulation - Hide the implementation
+					(Create things which are easy to use, but very very very difficult to understand on how it works)
+			Inheritance - Reuse the code
+
+			Polymorphism - Same Object, different behaviour
+
+			Who is the father of C ? - Dennies Ritchie
+			Who is the father of C++ / OOPS - Bjarne Stroustrup
+
+				on google and some popular books, they say there are 2 types of polymorphism
+								 some also says there are 3 types
+				but there is only 1 type as per Bjarne Stroustrup
+
+				Static Polymorphism/compile time -- Not Polymorphism
+This is a technique of compiler called "Name mangling"  
+					widraw(int amount) - widraw(int amount)_HJGH7969
+					widraw(double amount) - widraw(double amount)_45YFHKDD
+					widraw(int amount,datetime val) - widraw(int amount,datetime val)_JKj
+						
+				Runtime Polymorphism - this is real polymorphism
+				Method overloading  - this is not polymorphism
+
+
+
+		you write/implement all of this in a file (class file)
+			Class - is a Blue print
+				is a design file (document)
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
