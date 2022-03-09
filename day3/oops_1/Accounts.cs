@@ -2,14 +2,15 @@ using System;
 
 class Accounts
 {
+        #region My Variables
     int v_accNo;
     string v_accName;
     double v_accBalance;
     bool v_isAccountActive;
-
-    public int v_intrestRate;
-
-
+       public int v_intrestRate;
+#endregion
+ 
+        #region My Properties
     public int AccountNumber
     {
         get{ return v_accNo;}
@@ -33,8 +34,9 @@ class Accounts
         get{return v_isAccountActive;}
         set{v_isAccountActive = value;}
     }
+#endregion
 
-
+        #region My Methods
     public double Widraw(int w_amount)
     {
         AccountBalance = AccountBalance - w_amount;
@@ -51,6 +53,6 @@ class Accounts
     {
         return AccountBalance;
     }
-
+    #endregion
 
 }
