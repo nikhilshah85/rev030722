@@ -1,4 +1,4 @@
-Create a new Project - console app - oops_task1
+Create a new Project - console app - BankingAPPConsole_yourName
 
 in the app, add a new class
 	Accounts.cs

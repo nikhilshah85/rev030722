@@ -1,0 +1,10 @@
+1. Create a new repository on git - project0
+2. Clone the repo on ur desktop \ training_session folder
+3. create a new project inside project 0
+	dotnet new console --name BankingAPPConsole_yourName
+
+(all the git commands with run when you are pointing to project0 location)
+4. git add .
+5. git commit -m "Project 0 Initilized !! "
+6. git push
+7. Code the project and keep pushing the changes
