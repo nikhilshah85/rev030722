@@ -22,7 +22,7 @@ namespace inheritance_poly_demo
             return accBalance;
         }
 
-        public string WhoAmI()
+        public virtual string WhoAmI()
         {
             return "I am Parent - (Accounts)";
         }
