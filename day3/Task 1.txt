@@ -4,7 +4,8 @@ in the app, add a new class
 	Accounts.cs
 		add below 6 properties (in a new c# way) - prop
 
-		decorate the same with region - Properties
+		decorate the same with region - 
+		Properties
 			accNo, accName, accType, accBalance, accIsActive, accEmail
 
 		have the below methods
