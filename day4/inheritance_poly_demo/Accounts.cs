@@ -2,7 +2,7 @@ using System;
 
 namespace inheritance_poly_demo
 {
-    class Accounts
+   abstract class Accounts
     {
         public int accNo { get; set; }
         public string accName { get; set; }
@@ -11,6 +11,7 @@ namespace inheritance_poly_demo
 
         public double Widraw(int w_amount)
         {
+            //actual method would be 10-15 lines
             accBalance = accBalance - w_amount;
             return accBalance;
         }
