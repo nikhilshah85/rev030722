@@ -21,11 +21,10 @@ namespace method_demo
             int moreNumbers = 0;
             while (temp != 0)
             {
-
                 temp = Convert.ToInt32(Console.ReadLine());
                 moreNumbers += temp;               
             }
-
+                
             Console.Clear();
             Console.WriteLine("Addition of All your numbers are " + calObj.Add(num1,num2,moreNumbers));
 

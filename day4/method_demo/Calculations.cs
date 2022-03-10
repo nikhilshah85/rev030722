@@ -4,7 +4,7 @@ using System;
 class Calculations
 {
 
-    public int Add(int num1, int num2, params int[] moreNumbers)
+    public int Add(int num1 = 0, int num2 = 0, params int[] moreNumbers)
     {
         int temp = 0;
         for (int i = 0; i < moreNumbers.Length ; i++)
