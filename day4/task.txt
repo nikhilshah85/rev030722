@@ -1,0 +1,22 @@
+Try the below task
+
+	Create a new Project EmployeeManagement 
+		Add a class Employee
+			empNo		
+			empName
+			empSalary
+			empIsPermenant
+
+			getBonus(percentage) - return the percentage amount of salary
+				eg. empSalary = 10,000,
+				getBonus(5) - it will return 500
+
+		add below classes
+			Manager
+			Developer
+			HR
+
+	inherit all the 3 from Employee,
+	create the object of all the classes and test the output, make sure you cannot create an 
+	instance of Employee Class
+		
