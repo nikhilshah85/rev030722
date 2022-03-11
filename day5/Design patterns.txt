@@ -1,0 +1,20 @@
+design patterns 
+	when you want to design something(anything)
+	when you want to plan something (anything)
+
+There are many patterns in Software development
+	DP is an of 'Gang Of Four'
+
+There are more than 20 standard patterns today
+
+1. Structural Pattern - this talks about structure of object/class
+2. Creational Pattern - this talks about how ur object should get created
+3. Behavioural Pattern - this talks about how ur object will behave in memory
+	SingleTon pattern - have a single object of a class / variable 
+		accross the applciation
+	when you use static keywork on the project
+		Single Copy
+		public static Main(....)
+		{
+
+		}
