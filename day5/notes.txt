@@ -1,0 +1,16 @@
+After you compile the applciation, where does the output go ?
+	Bin - Debug - net5.0 -- .exe / .dll
+---------------
+	If my project is using Conole APP with database
+			This is called as 2 tier app
+	if my project is using Database, Class Lib and Console APP
+			This is called as 3 tier
+	if my project is using Database,Rest API, Web APP, Class Lib
+			This is called 4 tire
+		u can keep adding more tires to your project and they say N-Tire
+
+-------------------
+Question - how can you view the MSIL code ?
+	when you install Visual Studio, you get a tool called ILDASM (intermediate language disambler)
+
+		MSIL - also refered or pronounced as IL code

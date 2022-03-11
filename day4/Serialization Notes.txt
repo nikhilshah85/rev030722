@@ -1,0 +1,18 @@
+
+Savings sav = new Savings();
+	    sav.accName = "Nik";
+            sav.accBalance = 25000;
+	
+		sav.Widraw(4000);
+
+when you close the app, object is gone
+	We wish to store the object in a file on disk
+	
+	Serialization : is used to Persist the state of an object (in xml, SOAP, Binary, JSON)
+	Deserialization : is used to bring the object back to memory
+	
+	System.Xml.Serializtion
+		XmlSerializer class
+			which has methods
+				serialize
+				deserialize

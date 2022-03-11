@@ -1,0 +1,39 @@
+A Seperate - expert team - for database (DB Guys)
+	Experienced people design the DB 
+	Database developer does the devlopment
+
+A Seperate team - expert team - on C# (Programmers)
+	Experienced people design the Program	
+	Developers writes the code
+
+A Seperate team - expert team - for frontend (web developers) - HTML, CSS, JS, Razor
+	Experienced people design the look and feel (UI designer)
+	Web Developers writes the code
+
+A Seperate team - expert team - for Mobile apps (Xamarin, app devs)
+	Experienced people design the look and feel (UI designer)
+	Web Developers writes the code
+
+
+Story so far
+	this days you need to know everything 
+		You need to be good at Database, UI Frontend and Middleware - FullStack developer
+
+	This is for Server Centeric Application
+		.Net Full Stack
+		
+	This are Client Centeric Applications
+		MEAN Stack - MongoDB - Express - Angular - Node
+		MERN Stack - MongoDB - Express - React - Node
+
+
+
+
+
+
+
+
+
+
+
+

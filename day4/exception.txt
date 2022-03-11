@@ -1,0 +1,27 @@
+Parent class, mark the method as Virtual, so child can have their own copies of method
+	Keep all the common validations, formatting in the parent class method
+
+use overrides in the child, make your validations for the child here 
+
+How do you handle exceptions
+
+	It is in 2 parts,
+		1. In a class you use 
+			throw new Exception(" error message ");
+		2. In the calling env (main method in our case)
+			use try...catch..finally block
+	
+		3. Exception is an class by framework
+		similary you have more than 100 such classes
+		eg. DivideByZeroException
+		    FileNoFoundExcecption
+		    NullReferenceException
+		    SQLException
+		4. try - lets try this code
+		   catch - control comes here when there is an exception
+		   finally - is a common block, use this block for 
+				cleaning the resources, eg. close file
+
+
+
+
