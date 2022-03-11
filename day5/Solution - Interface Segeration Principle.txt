@@ -1,0 +1,20 @@
+public interface IEmployee
+{
+	string getProjectDetails(int empNo)
+	string getEmployeeDetails(int empNo)
+}
+
+public interface IEmployeeAdditionalDetails
+{
+	string getAvailableLeaves(int empNo)
+	int getManagerDetails(int empNo)
+}
+
+public class PermenantEmployee : IEmpoyee, IEmployeeAdditionalDetails
+{	
+}
+
+public class ContractEmployee: IEmployee
+{
+
+}

@@ -1,0 +1,23 @@
+public class PaymentManager
+{
+
+	public double MakePayment(string modeOfPayment,int amount)
+	{
+		if(modeOfPayment == "Cash")
+		{
+			//collect the cash and do some logic here
+		}
+		else if(modeOfPayment == "Credit Card")
+		{
+			//swipe the credit card and  some logic here
+		}
+		else if(modeOfPayment == "Debit Card")
+		{
+			//touch the debit card and logic here
+		}		
+		
+	}
+}
+This is what we have today
+Please add, Paypay payment functionality to the class
+		u will have to modify the above code

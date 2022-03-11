@@ -1,0 +1,78 @@
+
+
+
+
+public abstract  class PaymentManager
+{
+	public virtual double MakePayment(string modeOfPayment,int amount)
+	{
+		//common logic accross all the payment types
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public sealed class CashPayment : PaymentManger
+{
+	public override double MakePayment(string modeOfPayment,int amount)
+	{
+		//collect cash, process
+	}
+}
+
+
+
+public class CreditCard : PaymentManger
+{
+	public override double MakePayment(string modeOfPayment,int amount)
+	{
+		//swipe the card, process
+	}
+	
+}
+
+public class DebitPayment : PaymentManger
+{
+	public override double MakePayment(string modeOfPayment,int amount)
+	{
+		//touch , process
+	}
+}
+
+pubcli class Paypal : PaymentManager
+{
+	
+	public override double MakePayment(string modeOfPayment,int amount)
+	{
+		//paypal  , process
+	}
+
+	
+}
+
+public class AirPay : PaymentManager
+{
+	public override double MakePayment(string modeOfPayment,int amount)
+	{
+		//Airpay , process
+	}
+}

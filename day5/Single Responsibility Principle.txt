@@ -1,0 +1,27 @@
+public class AccountsCRUD
+{	
+	
+	SaveAccount()
+	EditAccount()
+	DeleteAccount()
+	createNewAccount()
+	
+}
+
+public class AccountsSortAndFilter
+{
+	checkDetails()
+	sortAccounts()
+	sortByName()
+	SearchByName()
+	searchByAccountType()
+	groupByAccountType()
+}
+
+public class AccountsTransaction
+{
+	widraw()
+	deposit()
+	transfer()
+}
+
