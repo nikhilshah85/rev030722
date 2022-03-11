@@ -1,0 +1,21 @@
+1. Read as much as u can - prefer docs.microsoft.com and revpro
+2. go through all the notes from last 5 days
+3. QC on tuesday (tuesday)
+4. 1 on 1 discussion with me 
+5. Quiz - Monday
+6. Project 0
+	Create a Project on Any real world topic (Banking, EmployeeManagement,
+						Shopping, HotelBooking,flightbooking etc)
+
+		Project should have Below Operations
+			CRUD - Create new object
+			       Read -select
+			       Update
+			       delete
+				Sorting
+				Filtering
+				Grouping
+			All operations on Database 
+			it would be a console app, with Menu 
+			Login would be needed to perform all the above operations
+			username and pwd would be stored and checked from Database
