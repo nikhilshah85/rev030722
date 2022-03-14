@@ -1,0 +1,10 @@
+database engine
+client tool connectivity
+client tool sdk
+sql client connectivity sdk
+
+how does application connect to your database engine ??
+	There are 2 ways,
+		a. Windows Authentication 
+		b. username and password -- this is used in product, more real
+		c. or both (mixed mode)

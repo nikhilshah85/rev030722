@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<Accounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <accNo>504</accNo>
-  <accName>Drew Berry</accName>
-  <accBalance>78000</accBalance>
-  <accIsActive>true</accIsActive>
-  <accType>Checking</accType>
-  <accEmail>drew@gmail.com</accEmail>
-</Accounts>

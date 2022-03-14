@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<Accounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <accNo>505</accNo>
-  <accName>Katty</accName>
-  <accBalance>12000</accBalance>
-  <accIsActive>true</accIsActive>
-  <accType>Loan</accType>
-  <accEmail>katty@gmail.com</accEmail>
-</Accounts>

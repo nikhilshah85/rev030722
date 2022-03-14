@@ -1,0 +1,88 @@
+OOPS 
+	Class
+	4 Pillars of OOPS
+	Exception handling
+	Serialization
+		Save the object to disk
+		bring the object back to memory
+		This is good when users are less, operations are less, security requiremenrs are less
+		
+	and thus we need to save data to a more secured medium
+		users may be in millions, security becomes a priority, operations would be more than 
+			billion over a period of year
+
+			Thus database systems (Oracle, SQl Server DB2 etc..)
+			Are to be used for enterprise applications
+
+		.net application communicates with database using libraries
+			ADO.net (Active X database object)
+			EF (Entity Framework)
+
+
+		a. SQL Server (download this, install this and understand different service)
+		b. use a tool (SSMS, SQL Server management studio) to connect to sql server
+		c. Demo from trainer (How to create sql server on Azure cloud, and connect to cloud db)
+
+		SQL Server Editions	
+			SQl Server Express (Totally free, has a data limit of 2GB)
+			SQl Server Standard (Have features for SQl, does not have enterprise feature, 
+						MSBI, clustering, mirroring, 
+			SQL Server Developer (low licence fee, will have all the features but can 
+					be used only develoment machine)
+			SQl Server enterprise (All features, this is the one used in Production)
+
+
+
+
+
+
+
+		if 1 machine goes down, 2nd machine server the request
+		if 2nd goes goes down, 3rd is available
+
+		DBA's (SQL Server Admins takes care of this)
+
+		clusturing	
+		Replication - copy all the live data from 1 server to other
+			there are different types (4 types)
+		Mirroring - there are only 3 parties here
+				Primary server
+				Secondary server
+				Agent
+				Primary goes down, secondary becomes primary
+				both goes down, business is down !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
