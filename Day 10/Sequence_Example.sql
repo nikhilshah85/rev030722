@@ -50,3 +50,19 @@ insert into tbl_ItalianDishOrders values (next value for seq_orderId,'ITY 1','IT
 select * from tbl_IceCreamOrders
 select * from tbl_chineseDishOrders
 select * from tbl_ItalianDishOrders
+
+ALTER TABLE tbl_ItalianDishOrdersADD ordertime datetime;
+
+
+select * from tbl_IceCreamOrders
+
+insert into tbl_IceCreamOrders values (next value for seq_orderId,'Ice 1','Ice 2','Ice 3','Ice 4')
+--how can I insert the system date and time ?
+--how can you still add a new record to tbl_IceCreamOrders, without passing the date ?	
+	insert into tbl_IceCreamOrders(orderId,dishName_1,dishName_2,dishName_3,dishName_4) values (next value for seq_orderId,'Ice 1','Ice 2','Ice 3','Ice 4')	
+
+
+	select GETDATE()
+
+	
+insert into tbl_IceCreamOrders values (next value for seq_orderId,'Ice 1','Ice 2','Ice 3','Ice 4',GETDATE())
