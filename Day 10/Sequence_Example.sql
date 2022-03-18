@@ -51,7 +51,8 @@ select * from tbl_IceCreamOrders
 select * from tbl_chineseDishOrders
 select * from tbl_ItalianDishOrders
 
-ALTER TABLE tbl_ItalianDishOrdersADD ordertime datetime;
+ALTER TABLE tbl_ItalianDishOrders
+ADD ordertime datetime;
 
 
 select * from tbl_IceCreamOrders
@@ -66,3 +67,7 @@ insert into tbl_IceCreamOrders values (next value for seq_orderId,'Ice 1','Ice 2
 
 	
 insert into tbl_IceCreamOrders values (next value for seq_orderId,'Ice 1','Ice 2','Ice 3','Ice 4',GETDATE())
+
+
+
+	select DATEPART(WEEK,GETDATE())
