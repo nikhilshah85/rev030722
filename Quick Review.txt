@@ -1,4 +1,21 @@
+
 1. Create a new instance on Azure and create the database and fire the query
-2. Normalization
-3. Index (very important for Performance)
-4. Procedures and Triggers
+2. Quick example on Sequence Object
+3. Normalization 
+4. Index (very important for Performance)
+5. Procedures and Triggers
+
+	SQL Server Set up on Windows based Laptop/Desktop
+		1.Download the Setup file (4.39 GB)
+		2. Do the setup your self
+		3. u will also need windows licence (Licence)
+		4. For production, u will need windows server (Licence)
+	This will need huge storage for big business, which u will have to buy
+		Ram, Processor, VPUS, cooling, security guard, place to run the server
+
+	Huge initial cost
+
+	Cloud
+	SQL Server (same software) 
+		runnig Microsoft Datacenter
+
