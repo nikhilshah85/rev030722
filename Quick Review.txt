@@ -1,0 +1,4 @@
+1. Create a new instance on Azure and create the database and fire the query
+2. Normalization
+3. Index (very important for Performance)
+4. Procedures and Triggers
