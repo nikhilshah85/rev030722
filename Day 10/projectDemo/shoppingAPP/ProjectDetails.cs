@@ -93,17 +93,15 @@ namespace shoppingAPP
     
         public ProductDetails GetProductById(int id)
         {
-            ProductDetails pr = null;
+            ProductDetails pr = new ProductDetails();
             SqlCommand cmd_search = new SqlCommand("select * from productdetails where pId =@pId",con);
             cmd_search.Parameters.AddWithValue("@pId",id);
-            SqlDataReader _read;
+            SqlDataReader _read = null;
             try
             {
                 con.Open();
                 _read = cmd_search.ExecuteReader();
                
-                _read.Read();
-
                 if(_read.Read())
                 {
                     
@@ -116,6 +114,10 @@ namespace shoppingAPP
 
                     return pr;
                 }
+                else
+                {
+                    System.Console.WriteLine("Product Not Found in System");
+                }
 
             }
             catch (System.Exception es)
@@ -125,6 +127,7 @@ namespace shoppingAPP
             }
             finally
             {
+                _read.Close();
                 con.Close();
             }
         return pr;

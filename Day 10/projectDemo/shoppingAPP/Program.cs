@@ -82,7 +82,7 @@ namespace shoppingAPP
                 #endregion
                     break;
                 case 4:
-                   System.Console.WriteLine("Enter Product Id to delete the product");
+                   System.Console.WriteLine("Enter Product Id to search the product");
                     int pid2 = Convert.ToInt32(Console.ReadLine());
                     ProductDetails pr = prDetails.GetProductById(pid2);
                     System.Console.WriteLine("Product ID " + pr.pId);
