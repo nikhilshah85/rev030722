@@ -11,6 +11,26 @@ namespace shoppingAPP
     
 
             bool continueShopping  = true;
+            bool isLoggedIn = false;
+
+            if (isLoggedIn == false)
+            {
+                System.Console.WriteLine("Enter Your User Name");
+                string username = Console.ReadLine();
+                System.Console.WriteLine("Enter Your Password");
+                string password = Console.ReadLine();
+                Security sObj = new Security();
+                
+                bool loginResult = sObj.Login(username,password);
+                if(loginResult == false)
+                {   
+                        System.Console.WriteLine("Invalid Credentials");
+                }
+                else
+                {
+
+                    isLoggedIn = true;
+               
             while (continueShopping)
              {
              Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~ Welcome to Online Shopping APP ~~~~~~~~~~~~~~~~~~~~~~~~~~~");
@@ -109,6 +129,7 @@ namespace shoppingAPP
                     break;
                 case 6:
                  continueShopping = false;
+                 isLoggedIn = false;
                     break;
                 default:
                         System.Console.WriteLine("Please Enter A Correct Choice");
@@ -119,7 +140,8 @@ namespace shoppingAPP
 
            
 
-          
+                }
+            }
             
 
 
