@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace shoppingAPP
 {
@@ -92,6 +93,19 @@ namespace shoppingAPP
                     System.Console.WriteLine("Product Is In Stock " + pr.pIsInStock);
                     break;
                 case 5:
+                    List<ProductDetails> lst =  prDetails.GetProductList();
+                    foreach (var item in lst)
+                    {
+                        System.Console.WriteLine("___________________________________________");
+                        System.Console.WriteLine("Product Id "            + item.pId);
+                        System.Console.WriteLine("Product Name "          + item.pName);
+                        System.Console.WriteLine("Product Category "      + item.pCategory);
+                        System.Console.WriteLine("Product Qty "           + item.pQty);
+                        System.Console.WriteLine("Product Price "         + item.pPrice);
+                        System.Console.WriteLine("Product Is In Stock ? " + item.pIsInStock);
+                    }
+
+
                     break;
                 case 6:
                  continueShopping = false;

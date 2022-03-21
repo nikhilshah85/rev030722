@@ -1,5 +1,6 @@
 using System;
 using System.Data.SqlClient;
+using System.Collections.Generic;
 
 namespace shoppingAPP
 {
@@ -130,6 +131,54 @@ namespace shoppingAPP
         }
 
 
+        public List<ProductDetails> GetProductList()
+        {
+
+            SqlCommand cmd_allProducts = new SqlCommand("select * from ProductDetails",con);
+            SqlDataReader readProducts = null;
+            List<ProductDetails> lst_ProductsFromDB = new List<ProductDetails>();
+
+            try
+            {
+            con.Open();
+            readProducts = cmd_allProducts.ExecuteReader();
+            while (readProducts.Read())
+            {
+                
+                lst_ProductsFromDB.Add(new ProductDetails()
+                {
+                    pId = Convert.ToInt32(readProducts[0]),
+                    pName = readProducts[1].ToString(),
+                    pCategory = readProducts[2].ToString(),
+                    pQty = Convert.ToInt32(readProducts[3]),
+                    pPrice = Convert.ToInt32(readProducts[4]),
+                    pIsInStock = Convert.ToBoolean(readProducts[5])
+                });
+            }
+
+
+
+
+
+            }
+            catch(SqlException se)
+            {
+                throw new Exception(se.Message);
+            }
+            finally
+            {
+                readProducts.Close();
+                con.Close();
+
+            }
+
+
+
+    return lst_ProductsFromDB;
+
+
+
+        }
 
     }
 }
