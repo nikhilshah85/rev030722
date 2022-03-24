@@ -8,53 +8,57 @@ namespace product_webapi.Controllers
     public class ProductsController : ControllerBase
     {
         #region First Greet Method
-        //[HttpGet]
-        //public IActionResult Greet()
-        //{
-        //    return Ok("Welcome to Web API - RESTFUL Services");
-        //}
+        [HttpGet]
+        [Route("greetings")] //encapsulation
+        public IActionResult Greet()
+        {
+            return Ok("Welcome to Web API - RESTFUL Services");
+        }
         #endregion
 
         #region Pass a Parmeter
 
-        //[HttpGet]
-        //public IActionResult GreetUser(string guestName)
-        //{
-        //    return Ok("Welcome : " + guestName);
-        //}
+        [HttpGet]
+        [Route("welcomeuser")]
+        public IActionResult GreetUser(string guestName)
+        {
+            return Ok("Welcome : " + guestName);
+        }
         #endregion
 
         #region Return Products Array
-        //[HttpGet]
-        //public IActionResult GetProductList()
-        //{
-        //    string[] products = new string[10];
-        //    products[0] = "Pepsi";
-        //    products[1] = "Coke";
-        //    products[2] = "IPhone";
-        //    products[3] = "Fossil";
-        //    products[4] = "Dell Lattitude";
-        //    products[5] = "Burger";
-        //    products[6] = "Pizza";
-        //    products[7] = "Strawberry Milk Shake";
-        //    products[8] = "Mango Shake";
-        //    products[9] = "Air Pods";
-        //    return Ok(products);            
-        //}
+        [HttpGet]
+        [Route("products")]
+        public IActionResult GetProductList()
+        {
+            string[] products = new string[10];
+            products[0] = "Pepsi";
+            products[1] = "Coke";
+            products[2] = "IPhone";
+            products[3] = "Fossil";
+            products[4] = "Dell Lattitude";
+            products[5] = "Burger";
+            products[6] = "Pizza";
+            products[7] = "Strawberry Milk Shake";
+            products[8] = "Mango Shake";
+            products[9] = "Air Pods";
+            return Ok(products);
+        }
         #endregion
 
-
         #region Product Info
-        //[HttpGet]
-        //public IActionResult GetProductInformation()
-        //{
-        //    ProductsModel model = new ProductsModel();
-        //    return Ok(model.GetProductInfo());
-        //}
+        [HttpGet]
+        [Route("product")]
+        public IActionResult GetProductInformation()
+        {
+            ProductsModel model = new ProductsModel();
+            return Ok(model.GetProductInfo());
+        }
         #endregion
 
         #region Product list
         [HttpGet]
+        [Route("plist")]
         public IActionResult ProductList()
         {
             ProductsModel model = new ProductsModel();
@@ -63,5 +67,6 @@ namespace product_webapi.Controllers
 
         #endregion
 
+    
     }
 }

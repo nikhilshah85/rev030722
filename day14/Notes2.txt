@@ -1,0 +1,17 @@
+Product : https://localhost:44345/api/Products/product
+All Products : https://localhost:44345/api/Products/plist
+Product : https://localhost:44345/api/Products/prodcts
+Greet : https://localhost:44345/api/Products/greetings
+Greet2 : https://localhost:44345/api/Products/welcomeuser?guestName=Nik
+
+REST api has 100's of such url
+	Route will create a route table, for faster search of methods and also applies encapsulation
+
+A Complete REST API app with Database and CRUD Operations
+------------------------------------------------------
+Get the data from database
+	Get - select - read 
+	Put - update the data
+	Post - Insert the data
+	Delete - delete
+------------------------------------------------------
