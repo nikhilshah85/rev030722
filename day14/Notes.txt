@@ -1,0 +1,14 @@
+Web API / Rest API
+	We do create below methods(Actions)
+	HTTPGET
+		Get the data (return OK)
+		GetSort result (return OK)
+		Get Filter Result / Search result (returns ok)
+	HTTPPOST (to create a new resource, add a new product) - (return created) - 201
+	HTTPDELETE (to delete an existing product) - (return removed) - 
+	HTTPPUT (to update an existing product) - (return Accepted)
+
+		OK - 200
+		Created - 201
+
+		
