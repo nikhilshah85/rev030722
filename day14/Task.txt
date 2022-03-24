@@ -1,0 +1,11 @@
+Pull my app, study the app
+create  a new rest api app for all the EmloyeeManagement
+	create table Employee
+	(
+		empNo int primary key,
+		empName varchar(20),
+		empDesination varchar(20),
+		empSalary int,
+		empIsPermenant bit
+	)
+	create a rest ful service to have CRUD Operations
