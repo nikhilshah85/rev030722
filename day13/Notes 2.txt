@@ -1,0 +1,45 @@
+
+
+
+	When you use the card anywhere you want to 
+		That small chip is able to communicate with other binary 
+
+
+	A Spanish person and a German Communicate ???
+		Common language known to both of them
+
+		May be English, Chinese etc.
+
+
+	---------------------------------------
+		We similarly have a common language amoung all the components (including hardware)
+
+			XML (Extensible Markup language)
+				based on this language
+
+			a new Architecture evolved - SOA - Service Oriented Architecture
+
+		When you want to create an Enterprise Appliation, 
+			banking, (credit card to be used anywhere)
+			Airlines, (100's of airlines in the world) shares the live 
+	
+			Whn you create an application which will
+				1. Output the result (eg. 2 + 2) in XML/SOAP <add> 4 </add>
+				2. Listen to anyincoming message in XML/SOAP 
+			The application is said to be using SOA
+
+
+			Service 
+
+
+
+
+
+
+
+
+
+
+
+
+	

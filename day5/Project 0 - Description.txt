@@ -6,7 +6,6 @@
 6. Project 0
 	Create a Project on Any real world topic (Banking, EmployeeManagement,
 						Shopping, HotelBooking,flightbooking etc)
-
 		Project should have Below Operations
 			CRUD - Create new object
 			       Read -select

@@ -1,0 +1,92 @@
+<XML version 1.0!>
+	<SOAP:Header>
+		<IPAddress> </IPAddress>
+		<Broswer>Google Chrome </Browser>
+		....
+	</SOAP:Header>
+
+
+	<SOAP:BODY>
+		<Source> Mumbai </Source>
+		<Destination> Singapore </Destination>
+		<Date> .. </Date>
+		<ReturnDate> ... </ReturnDate>
+	</SOAP:BODY>
+</XML>
+	There are 3 types of serialization (Binary, XML, and SOAP)
+Its a packet
+	This will go to the service runnin on some server
+
+	and then it will be opened (Deserialised)
+	and process the query / data
+	generate the output (SQL ROWS from table)
+	Serrialize the output again into SOAP Packet
+	send it back to browser, browser will deserialize it and show the data
+
+		SOAP - Simple Object Access protocol 
+		worked on HTTP/HTTPS Protocol
+		
+		This is an Idea and been accepted by Standard Web Organization
+			W3C
+		They put down the rules for exchange of data, conversion of data, compilers, languages
+				format of soap, rulesetc,
+			and this set of rules as 1 came to be known as a technology - we call it as 
+				WEB SERVICES
+		--------
+		Web Services has been around since 2005 and had been great, only tech responsible for
+		Enterprise application
+
+		Every 5-10 years there is a revolution in IT
+			
+	<temperature:int32>30</temperature:int32> -- this looks very heavy in mobile data world
+		More of meta data then data (not good for light weight devise)
+
+	<lattitude:float>10.5</lattitude:float>
+	<longitude:float>15.32</longitude:float>
+
+	This is not suitable for slow network 
+
+	Thus a ligher format of data is now available JSON
+		10.5,15.2
+		30
+		so the rules has changed
+		format of data has changed
+		new serialization is in place JSONSerializer
+		name of the tech has also changed (from Web Service, it now called REST)
+			Representational State Transfer
+
+			REST is the name of Standard
+
+			based on this standard, Microsoft created 
+				Compilers
+				Classes, Libraries, methods, properties etc...
+				and called it a Technology - WebAPI
+			RESTAPI = WebAPI = JSON Service
+
+			We will be createing the REST ful api services
+
+
+
+
+
+
+
+
+		Age
+		<age>30</age> --- XML
+		<age:int32>30</age:int32> -- SOAP - SOAP is more elobrative 
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+

@@ -27,8 +27,7 @@ namespace shoppingAPP
                  }
              }
              catch (System.Exception es)
-             {
-                 
+             {                 
                  throw new Exception(es.Message);
              }
              finally

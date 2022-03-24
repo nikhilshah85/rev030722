@@ -1,0 +1,21 @@
+create table login
+(
+	username varchar(25),
+	password varchar(25)
+)
+
+alter table login alter column username varchar(25) not null 
+
+alter table login add constraint pk_username primary key(username)
+
+
+insert into login values('User1','Pass@1234')
+insert into login values('User2','Pass@12345')
+insert into login values('User3','Pass@12346')
+insert into login values('User4','Pass@12347')
+
+-----------------------------
+	From C#, connect to database server
+		fire the query 
+
+

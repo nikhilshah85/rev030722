@@ -1,0 +1,7 @@
+1. SOA and REST - Detailed introduction
+2. One on One regarding out progress
+
+	You need time to review notes, reading the blogs I will share with you
+3. You have 2 Quiz (Tomorrow first thing)
+	a. on C# with OOPS (50 Marks)
+	b. SQL Server and ADO.net (50 Marks)
