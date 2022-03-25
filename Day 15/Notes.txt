@@ -1,0 +1,60 @@
+One of the Hottest interview question
+	What is the difference between function and procedure
+
+	Microsoft calls it as SP - stored procesure
+	Oracle they call it as only procedure
+
+	Functions - are used for calculations and formatting the data
+		are executed with sql queries (select dbo.functioname(...))
+	Procs - are used for DML operations (insert, update and delete)
+		are executed with exec key word
+
+		return values
+		functions can return only 1 value(and thats mandatory)
+procedure can return multiple values using outdirection of parameter (does not need to return the value) - in your P0 this is most required feature for many of you 
+
+	procedure can have below parameters
+		input parameter (default direction)
+		output parameter (need to be set)
+
+
+----------------------------------------------------------------
+	triggers are of 3 types
+		before trigger (before the event)
+		after trigger (after the event)
+		instead of trigger (on the views not on table)
+
+	before insert or update or delete of employee, 
+		time check to be performed, if it does not meet the condition, we roll back operation
+
+		eg. check for non working hours
+
+	---
+	after trigger is when insert or update or delete is successful, we want some other other query 
+		to get fired
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

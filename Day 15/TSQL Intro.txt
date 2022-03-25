@@ -1,0 +1,51 @@
+
+
+
+
+		Database Interaction
+			a. SQL Statements (select, insert, delete, update) 
+				-This is kind of slow and not so secured
+				-You cannot program this, eg. if condition, loops, exceptions etc..
+			b. TSQL (Transact SQL) - Prgrammed SQL
+				- create objects, which will run sql faster, 
+				- lots of security, gets you the encapsulation
+				- Used for Automations
+
+				TSQL Objects
+				Functions (user defined functions)- for calculations and formatting
+				Procedure (Block of Compiled SQL) for DML Operations
+				Triggers (Automation)
+					
+				This objects when used, they will bring better performace to the 				application
+
+		Automation, here referes to, developer or dba does not sit on the server and keep a watch or do anything manually
+		Eg.1
+			For an Employee table, 
+				employee cannot be added(inserted), updated or delete during non work 				hours (Working hours 9AM -5PM - Monday to friday)
+
+		Eg.2 When a customer buys a product, them amount should be auto calculated
+			and product qty should also be reduced
+
+		Eg.3 For a banking app, when a widraw or deposit or transfer is performed, 
+			we want an entry to be maked in the transaction table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

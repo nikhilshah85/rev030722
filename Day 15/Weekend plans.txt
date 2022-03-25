@@ -1,0 +1,4 @@
+1. Review functions, procedures and triggers
+2. prepare for quiz on monday
+3. Review the Rest API 
+4. Go to your curriculum and read the topics and try to read in detail about them (do a little bit o	of research)
