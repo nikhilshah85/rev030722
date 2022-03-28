@@ -1,0 +1,60 @@
+Application Directory Structure overview
+
+	wwwroot folder - this is where you keep your static contents
+		CSS files
+		JS Files
+		Libraries - Bootstrap, JQuery, JQueryUI, Google Materrial etc....
+	Model - Create model files here (.cs) 
+	View - Create your view files here
+	Controller - Create your controller files here
+	Program.cs (this is where you have main function)
+	startup.cs - this is where you configure application Middleware
+		oAuth (for security, login with facebook, google etc)
+		sessions
+		dependency injection***
+		100+ middlewares
+	appsettings.json (use to be web.config, (xml based) in asp.net)
+		database connection string 
+		framework info etc...
+		appliation variables, env variables etc.
+			
+----------------------------------------------------------------------------------------
+		Model
+		can be based on collection, generics etc. (in memory data, good for small apps)
+		can be with ADO.net
+		can be with Entity Framework (this is latest and mostly used)
+
+		Controller
+		a. MVC Controller : derives from Controller
+		b. API Controller (for REST services) : derives from ControllerBase
+			both of them can get creaed/ programmed for CRUD by Visual Studio
+			if you use Entity Framework
+
+		Views
+		a. Action View (the one which we just created)
+		b. Layout view (Master page) 
+		c. Partial View (user control - re-usable template which can be used on multiple 											pages)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

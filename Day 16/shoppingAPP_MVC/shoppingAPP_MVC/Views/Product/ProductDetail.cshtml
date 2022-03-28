@@ -1,0 +1,48 @@
+﻿@model shoppingAPP_MVC.Models.Products
+
+@{
+    ViewData["Title"] = "ProductDetail";
+}
+
+<h1>ProductDetail</h1>
+
+<div>
+    <h4>Products</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.pId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.pId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.pName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.pName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.pCategory)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.pCategory)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.pPrice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.pPrice)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.pAvailableQty)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.pAvailableQty)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

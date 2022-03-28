@@ -1,0 +1,66 @@
+11:30
+	ASP.Net MVC (web)
+	C# - Delegates
+	LINQ
+------------------------------------------------------------------------------------
+		ASP - ActiveX Server Pages (1995 - 2001) (home.asp)
+			you craete pages and put it on server
+		ASP.Net - More improved with .net framework (ASP.Net 1.1) (aspx.pages)
+			ASP.Net 2.0 and also included web services (SOAP messages)
+			ASP.Net 3.5 (Advance Web Services) (home.aspx)
+		ASP.Net MVC (MVC is a design pattern, for createing a much better application)
+		ASP.Net MVC Core
+
+
+		M - Model - Data - (this is the data part of application)
+			Data access, CRUD operations, formatting, filter, sort, group, validate, 
+			SP execution, transactions etc....
+			Make a REST calls here to get the data (for security purpose) - C#
+			(.cs file) - c# file
+			may be read a excel, xml file or json file
+		V - View - UI - (This is the User Interface, which use will see on their screen)	
+			HTML,CSS,Javascript, Razor Syntax (mix and short hand all 3)
+			images, videos, forms, textboxes etc.
+			client side validations
+			make a REST API calls here as well (JQuery)
+				(for general data, which is not kind confendential or has anything on
+				security)
+			(.cshtml)
+		C - Controller - (this is a communicater between M and V)
+			Collect the data from model and give it to view
+			and vice versa
+			(.cs)
+			Authentication, encryption, security, certificates, session management etc.
+
+		Without MVC, 
+			all the data related code, UI related activity and controller related activity
+			used to be in a single file (ASP)
+
+			in ASP.Net
+			this single file was then divided into 2 parts
+			a. UI 
+			b. Data and Controller
+
+			in ASP.Net MVC
+			we made it 3 files
+			a. UI
+			b. Data
+			c. Controller
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			

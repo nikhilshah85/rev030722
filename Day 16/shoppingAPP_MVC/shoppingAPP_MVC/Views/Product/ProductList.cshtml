@@ -1,0 +1,63 @@
+﻿@model IEnumerable<shoppingAPP_MVC.Models.Products>
+
+@{
+    ViewData["Title"] = "ProductList";
+}
+
+<h1>ProductList</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.pId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pCategory)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pAvailableQty)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.pId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.pName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.pCategory)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.pPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.pAvailableQty)
+            </td>
+            <td>
+              @*  @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+                <button class="btn btn-primary"> Add To Cart </button>
+                <button class="btn btn-warning"> Edit </button>
+                <button class="btn btn-danger"> Delete </button>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
