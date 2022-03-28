@@ -8,9 +8,11 @@ namespace shoppingAPP_MVC.Controllers
     public class ProductController : Controller
     {
 
-        Products productObj = new Products();
+        Products productObj = new Products(); //this is compile time
       public IActionResult ProductDetail()
         {
+
+            
             return View(productObj.GetProducts());
         }
 

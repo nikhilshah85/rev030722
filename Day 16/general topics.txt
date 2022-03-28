@@ -1,0 +1,92 @@
+Async prog -- 
+	A much needed feature, youtube keeps loading the video content in the background
+	when we watch the video
+
+
+	To achive this, we use Task as return type of a method
+		and attach asyn and await
+
+
+	public async Task<employee> GetEmployeeProfiles()
+	{
+
+		files = await getthefilesfromservercode(); //collect data in small chunk
+
+		some code
+		some code
+		executing
+		somecode
+		int add = 10 + 20;
+
+	}
+
+
+	Threads has their own problem, Threads were for desktop app, not for web
+		plus it had other problems
+		Thus we have Task
+		async, await and Task
+Reflection
+
+	Reflection is an technique to collect all the information from the object at runtime
+	properties, methods, variables, enums, parameters everything 
+
+
+	in REST api, webserver uses reflection, to get the data you have send and detect the properties to convert it into JSON
+
+		select * from employees from .net appliction, 
+
+		Reflection is used everywhere
+
+		It can also create a new object at runtime
+
+
+
+OWASP security
+
+
+
+
+
+Reflection 
+You walk into a bank, open me a new account
+	banksoftware has more than 80 types of accounts
+
+	if we write if condition for 80 type of account
+
+	instead reflection will do it in 2 lines
+
+		object newAccount = Reflection.Activate("Savings");
+
+	SOA, REST, ASP.net MVC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deleegates, LINQ, Factory pattern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
