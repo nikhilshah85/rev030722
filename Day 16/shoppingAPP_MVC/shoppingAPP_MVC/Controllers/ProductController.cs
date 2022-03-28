@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using shoppingAPP_MVC.Models;
 namespace shoppingAPP_MVC.Controllers
 {
+
+    [Authorize]
     public class ProductController : Controller
     {
 
@@ -13,6 +16,10 @@ namespace shoppingAPP_MVC.Controllers
 
         public IActionResult ProductList()
         {
+            ViewBag.developer = "Nikhil";
+            ViewBag.teamSize = 23;
+            //Session["userid"] = "nik";
+           // Application["hits"] = 0;
             return View(productObj.ProductList());
         }
     }

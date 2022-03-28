@@ -47,8 +47,30 @@
 			b. Data
 			c. Controller
 
+------------------------------------------------------------------------------------------------------
+	Sessions Management
+		start of browsing - a new object for you gets created on server (imageing 30K users)
+		till the end of browsing
 
-
+		Types
+	    1. 	ViewBag / ViewData / (ViewState in ASP.net) - can pass the info from 1 page to another	
+		any data you wish to pass from controller to view, you can use Viewbag
+		Viewbag is dynamic 
+		Viewdata needs type conversion
+	    2. Session state
+		(user level, user data) - used for per user info, eg. banking session
+	    3. Appliation state
+		some data which needs to be share by all the users
+			you are visitor no #
+		
+	Caching
+		store the page copy in memory cache / RAM so that next time, server does not have to 		find that page from Disk
+	Security
+		Authentication - check for userid and password, if valid, give access to resource
+		Authorization  - After authentication, check if you have permission to access 				something
+		
+	Middleware
+		inject some services as per your need
 
 
 
