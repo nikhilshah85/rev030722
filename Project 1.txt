@@ -1,0 +1,62 @@
+						Project 1
+
+Make sure you will work with all the rest standards (return httpstatus code, exceptioon, logging etc)
+Web API / Rest API Project
+	We need to create the REST API Service 
+	
+An App, which will help customer to feel the virtual energy
+(Online shopping, Restaurant APP, Cab Booking app)
+
+
+Functionalities
+1. Admin
+2. User/Customer
+	(someone becomes a customer when they sign up) - sign up can be done by customers or Admin can do it for them
+
+Admin,
+	should be able to add new customer
+	search the customer
+	view list of customers
+	Place an order for customer (eg. book a cab for customer when they call customer care)
+	order history by customer
+	display the details for the open orders / bookings
+	view the history of all the transactions for any customer
+Customer
+	should be able to sign up
+	search the products/ dish at a restautant / a cab 
+	Place an order - book a service (make a new purchase or book a table/order online food, book a cab)
+	cancel the order
+	view their history
+	view the bill payable - Invoice (when the user has placed an order, they can place multiple orders
+
+--------------
+Additional Mandatory Features
+Exception Handling (throw appropriate error message)
+Validations
+No hard coded data anywhere
+all the data to be persisted to database
+Database should be normalized upto 3NF
+you need to have an ER diagram for the same
+
+----
+Self Research, learn and implement
+Logging - Serilog (this is very easy to implemennt) - log everything to db
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

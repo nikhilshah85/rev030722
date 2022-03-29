@@ -1,0 +1,64 @@
+create table flighttable
+(
+	flightno int,
+	airlines varchar(20),
+	source varchar(20),
+	destination varchar(20),
+	cost int
+)
+
+--------------------------------------
+create procedure newflight
+as
+begin
+declare @fno int = 0
+declare @airlines varchar(20)
+declare @source varchar(20)
+declare @destination varchar(20)
+declare @cost int
+declare @randmcost int
+while @fno < 900000
+begin
+	select @fno = @fno + 1
+	if @fno % 2 = 0
+	begin
+		
+		set @randmcost = (select  RAND() * 50000)
+			if @randmcost < 20000
+				begin
+					set @cost = @randmcost
+					set @source = 'Mumbai'
+					set @destination = 'Nagpur'
+					set @airlines = 'Air India'
+				end
+			else
+				begin
+					set @cost =(select  RAND() * 40000)
+					set @source = 'Pune'
+					set @destination = 'Mumbai'
+					set @airlines = 'Indigo'
+				end
+					insert into flighttable values(@fno,@airlines,@source,@destination,@cost)	
+			end 
+	else
+	begin
+		if @randmcost < 20000
+				begin
+					set @cost = @randmcost
+					set @source = 'Kochin'
+					set @destination = 'Pune'
+					set @airlines = 'Spice Jet'
+				end
+			else
+				begin
+					set @cost =(select  RAND() * 40000)
+					set @source = 'Banglore'
+					set @destination = 'Chennai'
+					set @airlines = 'Jet Airways'
+				end
+					insert into flighttable values(@fno,@airlines,@source,@destination,@cost)	
+			end 
+	end
+
+end
+
