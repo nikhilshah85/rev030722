@@ -24,6 +24,7 @@ namespace shoppingAPP_MVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+         
             
         }
 
@@ -44,6 +45,7 @@ namespace shoppingAPP_MVC
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
