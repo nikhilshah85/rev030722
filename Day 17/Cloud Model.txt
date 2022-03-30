@@ -1,0 +1,34 @@
+Public cloud - Azure, Aws, GCP (Public Data Center)
+	available for public
+	attach ur credit card, start to use the service, pay in next bill cycle
+	Anyone accross the world can come here
+
+Private  (Private Data Center)
+	private to organizations
+
+Hybrid cloud (Mix of both, they are in sycn)
+		I have SQL Server installed on my machine, (my private cloud ) - if not my machine, on a remote server
+			My businees collects around, 2 GB data a day
+		thus i collect it locally on my machine
+
+		eod I will push this data to cloud instance
+
+		end of month I will create an Report, which will collect data from my prem 
+		and cloud
+community (group of compnaies will share it, not for public, not personal or private)
+	data center - created / formed / funded by
+			Revature
+			Cognizant
+			Accenture
+
+
+	select  * from employee (this query will collect data from my machine as well as cloud)
+
+
+
+
+
+
+
+
+

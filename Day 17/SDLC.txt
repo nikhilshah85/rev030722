@@ -1,0 +1,150 @@
+1. good UI - attractive interface
+2. user friendly Interface - UI
+	we create software for non-technical people, and we should make it in such a way that find it most simple
+3. Performance
+4. Security
+5. Self healing softwares 
+
+------------------------
+SDLC goes below phases
+
+
+1. Analysis  - Analyse the software properly 
+	(on general) - not in very depth, but in a broader way
+
+		What is the domain, what is the need of software, what needs to be done
+		which technology to use, whom to ask, whom to contact,
+		Time it take, cost it will take,
+		Analyse the risk, Analyse the cost, which language client is expecting to use
+		Analyse team size, Analyse recruitment, analyse training cost, Potential security threats
+
+	
+	and Requirement Gathering - understand the requirement properly
+		---***by asking as many questions as you can
+	you also collect lot technical requirements here 
+		try to understand the domain and what they exactly want to do 
+
+	My experiences : *----clients themself are not aware of the complete requirement and domain
+	you miss something here, you may miss out it for ever till the end, 
+
+	Eg. for a shopping app, you need a payment gateway, 
+		which one to use ? Master, visa, razor pay, paypal etc..
+
+2. Design - Skelleton, sketches, on paper (lots of design here)
+		UX design (UX designers) - UX professional works on different tools, they do not write html, css or js 
+		Database design  - ER Diagram
+		class Diagrams
+		Network diagram
+	https://www.tutorialspoint.com/uml/uml_class_diagram.htm 
+
+	at google.com (which logo goes today) - UX (high visualization power)
+			who puts that logo there - UI (high technical skills)
+
+3. Development
+		UI development
+		Frontend 
+		backend
+		middleware
+		Programming and DB development
+
+4. Testing - different types of testing
+	Testing is also programming (Unit testing)
+		small small of a program is been tested
+		They try to go parallel
+
+		if you are been given 10 functions to develop
+
+		you write 1 function, test is parallelly writing test function for that
+			once both are completed and testd, come back to me
+		I will accept the functions which are tested
+
+		developer A completed 10 function (in 5 days)
+		tester comes writes 10 functions and test it (5 more days)
+5. Deployment
+	push the code to server / Production environment
+
+6. Maintainance 
+	This cycle repeats 
+
+---------------------------------------SDLC Models---------------------------------------------------
+	Agile - break the software requirement into small incremental pices and apply SDLC to it
+		banking app may have various modules
+			Accounts - sprint
+			Transactions - sprint
+			Loans - spring
+			
+		team takes up Accounts module and work at SDLC phases
+			Analyse, Requirement, Design, Develop, test, deploy done
+
+		then take up transaction
+
+	waterfall
+			Analyse all the modules
+						Design all the modules
+
+--------------------------------------------------------------------------------------------------------------------------------	
+		Based on any model you choose for development, you need a proven technique to monitor, manage the flow or work, people
+
+
+
+		Scrum Methodoloy (Activities, non technical term)
+		A. Product Backlog creation
+			what is pending, keep a check on it regualr basis
+			eg. during a Internal meet between team members, 20 questions came in 
+				where will u get answer from - client
+		
+		B. Spring planning
+			Start time
+			endtime
+			responsible person (owner - spring owner)
+			team size etc...
+		c. Spring begins -- ongoing spring
+			team standup meets every day / Weekly 
+		D. Testing, Demonstration to client, internal feedbacks, plan sprint, collect backlog, learning, team lunch, small 														get-to-gether
+		e. planning for the next spring
+		
+		
+		This gives an assurity of completing the project on time, better results etc..quality of work
+
+		https://www.digite.com/agile/scrum-methodology/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
