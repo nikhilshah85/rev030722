@@ -1,0 +1,78 @@
+Array
+	1. if you declare an array type, you have to store the same data type
+	eg. string[] names = new string[5];
+
+	you cannot store numbers and booleans "10"
+
+	we need to store multiple datatypes under 1 variable, we dont know what it will be
+
+	2. Size 
+		string[] names = new string[5]; 
+		u can store only 5 values
+
+
+	you need to be properly aware of your data
+
+Arraylist instead - not need to worry about size or datatype, completely dynamic
+--------------
+Arraylist is a collection, which does boxing and unboxing everytime you add new value, remove the value from it
+	ArrayList.Add(object) --
+	1. once you are done, it will have to spend efforts to recognize the type of data you put in 
+	2. Based on the type, it has to allocate the memory on ram
+	
+	3. In the memory graph, there goes a game of boxing and unboxing(keep it for later to understand)
+
+	These 3 things for every value you add is an overload on runtime, affecting performance
+
+similar things happens when you want to read the value to the program
+	for a very huge list, this is not recommended !!
+
+----------------------
+List (This is most used)
+	No worry about the storage size
+	No worry about boxing and unboxing, thus memory and runtime are relaxed
+	use this when you know the type of data
+
+
+well, list can have duplicates
+	myList.Add("Nik"); //technically this is Nikhil Shah
+	myList.Add("Nik"); // technically this is Nikky Shaw
+
+----------
+HashTable
+	ht.add(object,object)
+
+very bad for the performance, this was made avaialbe as a new feature for data in 2002
+-----------------
+
+Thus we have a Generic key value pair collection (Dictio]nary)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+
+
+
+
+
+1. Data Structures and collections
+	Non-generic collection and generics
+	Array
+	ArrayList
+	List
+	Hashtable
+	Dictionary
+	Stack
+	Queues
+		etc..
+	.Net framework
+	Boxing and unboxing
+	Value type and reference type
+	
+	Can you create your own collection
+
+		eg. List<Employee> empList = new List<Employee>();
+
+Hunt Assignment
+		Employee<Managers> empManagerList = new Employee<Managers();
+		Employee<Developers> empDeveloperList = new Employee<Developers>();
+			empDeveloperList.getCount("Software Developer");
+			empDeveloperList.getCount("Cloud Developer");
+
+		1 propery which needs to be included,what is the name of that property
+
+Hint : Look out for, how to create custom collections in .net
+		
+
+
+		
+2. LINQ
+3. Delegates
+4. Asynchronous Programming
+5. Testing
+
+		Collections are the one which will hold mulitple values in 1 variable
+		Array
+
+
+		All the collections are index based which starts at 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+A business owner, gets more than 200 emails from accross the globe, for orders and shipment (in a day)
+				 200 more during night time
+
+	Thus he/she hired some executives to work on emails (emails has imp info, like senders phoneNo, senders Email, 
+								address, lots of info which owner does not want exectutives to 
+								know about)
+
+	Thus an applicaction can be created which will connect to the mail exchange server/mailbox and display the dta
+	which executives needs to wrk wth 
+
+	XML - Xpath and XQuery
+-------------
+	For a developer, conneting to various sources and fire the query, for CRUD, sort, filter, group etc is challangeing
+	Insted of learning all this differnt language and connecing and working with them
+		let me give you a new framework(Microsoft)
+	you talk to this framework only, and in the background, new framework will talk to all the source in their own language
