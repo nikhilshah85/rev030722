@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewData["Title"] = "GetRESTDataClient";
+}
+
+<h1>GetRESTDataClient</h1>
+
+
+
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+        $("#btnPost").click(function(){
+            $.ajax({
+                url:'https://jsonplaceholder.typicode.com/posts',
+                method:'GET',
+                contentType:'application/json',
+                success:function(result){
+                   // console.log(result);
+
+                   for(i=0;i<result.length;i++)
+                   {
+                          $("#tblPost").append("<tr>" + 
+                    
+                            "<td>" + result[i].userId + "</td>" +
+                            "<td>" + result[i].id + "</td>" +
+                            "<td>" + result[i].title + "</td>" +
+                            "<td>" + result[i].body + "</td>" +                   
+                             + "</tr>")
+                   }                
+                },
+                error:function(err){
+                    console.log(err);
+                }
+            })           
+        })
+        
+       
+        $("#btnPhotos").click(function(){
+            
+            $.ajax({
+                url:'https://jsonplaceholder.typicode.com/photos',
+                method:'GET',
+                contentType:'application/json',
+                success:function(pics){
+                    
+                    for(i=0;i<pics.length;i++)
+                    {
+                        $("#tblPhotos").append("<tr>" +
+                        "<td>" + pics[i].albumId + "</td>"  + 
+                        "<td>" + pics[i].id + "</td>"  + 
+                        "<td>" + pics[i].title + "</td>"  + 
+                        "<td><img src='" + pics[i].thumbnailUrl + "'/></td>"  + 
+                        
+                        + "</tr>")
+                    }
+                },
+                error:function(err){
+
+                }
+            })
+      
+        })
+
+        $("#btnUsers").click(function(){
+            $.ajax({
+                url:'https://jsonplaceholder.typicode.com/users',
+                method:'GET',
+                contentType:'application/json',
+                success:function(result){
+                    for(i=0;i<result.length;i++)
+                    {
+                        $("#tblusers").append("<tr>" + 
+                            "<td>" + result[i].name+ "</td>" + 
+                            "<td>" + result[i].email + "</td>" + 
+                            "<td>" + result[i].address.city + "</td>" + 
+                            "<td>" + result[i].address.geo.lat + "</td>" + 
+                            "<td>" + result[i].company.name+ "</td>" + 
+                            "<td>" + result[i].company.catchPhrase + "</td>" +                        
+                        
+                        + "</tr>")
+                    }
+                },
+                error:function(errInfo){
+
+                }
+            })
+        })
+        
+        
+    })
+
+</script>
+
+
+<button class="btn btn-primary" id="btnPost"> Get Post </button>
+<button class="btn btn-warning" id="btnPhotos"> Get Photos </button>
+<button class="btn btn-danger" id="btnUsers"> Get Users </button>
+
+<table class="table table-bordered" id="tblPost"></table>
+<table class="table table-borderless" id="tblPhotos"></table>
+<table class="table table-striped" id="tblusers"></table>

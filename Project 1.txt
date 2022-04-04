@@ -25,15 +25,27 @@ API shoule be able to perform the following operations
 --------------
 Additional Mandatory Features
 Exception Handling (throw appropriate error message)
-Validations
+Validations (all the data that will come from user, needs to be validated), think on the data how it should be, and validate it
+
 No hard coded data anywhere in the code
 all the data to be persisted to database
 Database should be normalized upto 3NF
-you need to have an ER diagram for the same for the data
+you need to have an ER diagram for the same for the data on ur ppt
 
+Mandatory 
 ----
 Self Research, learn and implement
 Logging - Serilog (this is very easy to implemennt) - log everything to db
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -13,7 +13,7 @@
 
 
 		M - Model - Data - (this is the data part of application)
-			Data access, CRUD operations, formatting, filter, sort, group, validate, 
+			Data access, CRUD operations, formatting, filter, sort, group, 			validate, 
 			SP execution, transactions etc....
 			Make a REST calls here to get the data (for security purpose) - C#
 			(.cs file) - c# file
