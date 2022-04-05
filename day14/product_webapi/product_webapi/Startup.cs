@@ -26,7 +26,14 @@ namespace product_webapi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            //by default lets allow everyone, to have access and make all the calls
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(policy =>
+                {
+                    policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                });
+            });
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -45,6 +52,7 @@ namespace product_webapi
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "product_webapi v1"));
             }
 
+            app.UseCors();
             app.UseHttpsRedirection();
 
             app.UseRouting();

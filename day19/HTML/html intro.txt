@@ -1,0 +1,32 @@
+
+
+
+
+
+
+		HTML - Hyper Text Markup Language
+
+			this language is based on tags <tagname> </tagname>
+			500+ tags
+			This is driven by a standard body,  W3C 
+				based on this standards, organizations
+			created an Engine and made a UI tool called browser
+			google, microsoft, apple
+
+		Browsers, understand 3 languages
+			a. HTML (tags / elements)
+			b. CSS (selectors)
+			c. JS (script)
+
+
+
+
+
+
+
+
+
+
+
+
+			

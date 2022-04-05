@@ -9,6 +9,11 @@ namespace consume_RestAPI.Controllers
         {
             return View();
         }
+
+        public IActionResult GetProducts()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();

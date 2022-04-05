@@ -1,0 +1,22 @@
+
+
+
+1. REST Developers - works in 2 parts
+	a. develop rest api services
+	b. consume REST services created or provided by client
+		2 ways - 2 modes
+
+		a. Client Side Framework 
+			(JQuery, Angular, React, Node, Php etc)
+		b. Server side framework
+			(C# - console app, asp.net mvc app, java etc...)
+
+--------------------------------------------------------------------------------
+		JQuery (We have HTML, css and JS sessions anyways)
+			ajax({
+				url:'https://jsonplaceholder.typicode.com/posts',
+				method:'GET',
+				contentType:'application/json',
+				success:function(resultData){ ...disply the data code '},
+				error:function(errInfo){...})
+			})

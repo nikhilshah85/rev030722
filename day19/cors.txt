@@ -1,0 +1,17 @@
+https://localhost:44345/api/ProductDetails/plist - REST API
+Facebook
+
+https://localhost:44312/ClientsideAPICall/GetProducts - MVC
+YourAPp
+
+you cannot pull any data from other websites, unless they allow you(configure)
+	else your calls will be blocke
+	CORS - Cross Origin Resource Shareing 
+
+	we have to fix it in the api
+
+	there are different requirements we can have
+	
+	APP 1- can access only 2 controller (there are 5 controllers in my app)
+	APP 2 - can make only GET request, (no put, not post, no delete)
+	APP 3 - can make only getproductByid (not other methods)

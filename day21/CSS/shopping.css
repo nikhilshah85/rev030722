@@ -1,0 +1,36 @@
+body{
+    background-color: greenyellow;
+    color: palegoldenrod;
+}
+
+h1{
+    text-align: center;
+    color: aqua;
+    /* text-shadow: 5px 5px 8px palevioletred; */
+}
+
+p{
+    color:aqua;    
+}
+
+input:focus{
+    background-color: olivedrab;
+    color: aliceblue;
+}
+
+.txtNumber:focus
+{
+    background-color: brown;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 30px 30px 40Px blue;
+}
+img:hover{
+    height: 350px;
+    width: 350px;
+    border-radius: 175px;
+}

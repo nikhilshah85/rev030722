@@ -1,0 +1,35 @@
+					CSS 
+
+	This is a centralised style for whole page
+
+	HTML, CSS and JS
+	u can learn how to use CSS in 15 minuites
+		u can spend months to learn its properies 
+
+	--
+		CSS are written at 3 places
+		a. within HTML tag <h1 style="text-align:center"> Hi </h1>
+		b. in the head section or above body section in a 
+			<style>
+				h1{ color:'Red'}
+			</style>
+		c. in an External file (.css)
+	The nearest 1 gets applied
+
+	in a style tag, there are 3 ways to point to an html element
+	a. name of the element
+	b. id of an element
+	c. className (class is the attribute to html tag)
+
+
+
+
+
+
+
+
+
+
+
+
+

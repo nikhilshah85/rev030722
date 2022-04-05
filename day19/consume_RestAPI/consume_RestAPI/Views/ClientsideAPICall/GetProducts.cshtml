@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "GetProducts";
+}
+
+<h1>GetProducts</h1>
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $("#btnProducts").click(function(){
+            $.ajax({
+                url:'https://localhost:44345/api/ProductDetails/plist',
+                method:'GET',
+                contentType:'application/json',
+                success:function(prod){
+                    for(i=0;i<prod.length;i++)
+                    {
+                        $("#tblProducts").append("<tr>" + 
+                            "<td>" + prod[i].productId + "</td>"  + 
+                            "<td>" + prod[i].productName + "</td>"  + 
+                            "<td>" + prod[i].productCategory + "</td>"  + 
+                            "<td>" + prod[i].productQty + "</td>"  + 
+                            "<td>" + prod[i].productPrice + "</td>"  + 
+                            "<td>" + prod[i].productIsInStock + "</td>"  +                        
+                        
+                        + "</tr>")
+                    }
+                },
+                error:function(err){
+
+                }
+
+            })
+        })
+    })
+
+
+</script>
+
+<button class="btn btn-success" id="btnProducts"> Show Products </button>
+
+<table class="table table-bordered" id="tblProducts">
+
+</table>
