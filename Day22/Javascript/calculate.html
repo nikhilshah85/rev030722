@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script type="text/javascript">
+
+        function Login()
+        {
+
+        }
+
+        function greet()
+        {
+                alert('Welcome to the Javascript World');
+        }
+
+        function checkValues(txtBox)
+        {         
+            
+            if(txtBox.value == "")
+            {
+            document.getElementById("txtErr").innerText = "Enter Value Please";
+            
+            }
+            else if(txtBox.value < 0)
+            {
+                document.getElementById("txtErr").innerText = "Enter Positive Value only";
+            }
+            
+        }
+
+
+        function calculate()
+        {
+                //we will have to take values from the textboxes
+
+                var n1 = document.getElementById("txtNum1").value;
+                var n2 = document.getElementById("txtNum2").value;             
+              
+               
+                    document.getElementById("txtErr").innerText = "";
+                    var addition = parseInt(n1) + parseInt(n2);
+                    var subtract = parseInt(n1) - parseInt(n2);
+                    var divide = parseInt(n1) / parseInt(n2);
+                    var multiply = parseInt(n1) * parseInt(n2);
+                   document.getElementById("addResult").innerText = "Addition is : " + addition;
+                   document.getElementById("subResult").innerText = "Subraction is " + subtract;
+                   document.getElementById("divResult").innerText = "Divide is " + divide;
+                   document.getElementById("mulResult").innerText = "Multiply is " + multiply;
+                
+        }
+
+
+
+
+</script>
+
+
+
+<body>
+    <h1> Calculations </h1>
+
+<div>
+    <input type="number" onblur="checkValues(this)" placeholder="Enter First Number" id="txtNum1"/>
+    <input type="number" onblur="checkValues(this)" placeholder="Enter Second Number" id="txtNum2"/>
+
+    <button id="btnCalculate" onclick="calculate()" > Calculate</button>
+    <button onclick="greet()"> Give Greetings </button>
+
+    <h1 id="txtErr" style="color: red;"> </h1>
+    <h3 id="addResult"> </h3>
+    <h3 id="subResult"> </h3>
+    <h3 id="divResult"> </h3>
+    <h3 id="mulResult"> </h3>
+    
+</div>
+
+
+</body>
+</html>

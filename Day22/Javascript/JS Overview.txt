@@ -1,0 +1,14 @@
+
+
+
+		JS - Javacript - they run under JS engine
+		JS is case scencetive 
+			int name = "Nik"
+			console.log(Name);
+		JS is managed by w3c
+		JS can manipulate HTML as well apply css to html at runtime
+		JS is an Object Based scripting language
+		JS is used fom side calculation, validations, formatting, apply some animations etc.
+
+			client side is about doing validation, calculation on the client browser and avoiding 
+			the round trips
