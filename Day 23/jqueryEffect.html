@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            // $("h1").hover(function(){
+            //     $(this).css("background","Yellow");
+            // })
+
+            // $("h1").mouseout(function(){
+            //     $(this).css("background","white");
+            // })
+
+            // $("h1").click(function(){
+            //     $(this).hide();
+            // })
+
+            // $("#btnHide").click(function(){
+            //     $("h1").hide(5000);
+            // })
+
+            // $("#btnShow").click(function(){
+            //     $("h1").show(5000);
+            // })
+
+            $("#btnToggle").click(function(){
+                $("h1").toggle(5000 );
+            })
+
+            $("img").hover(function(){
+                $(this).css("height",400).css("width",400);
+            })
+
+            $("img").mouseout(function(){
+                $(this).css("height",150).css("width",150);
+            })
+
+            $("img").dblclick(function(){
+                $(this).hide(6000);
+            })
+
+
+        })
+    </script>
+
+</head>
+<body>
+<!-- 
+    <button id="btnHide">Hide</button>
+    <button id="btnShow">Show</button> -->
+    <button id="btnToggle"> Toggle </button>
+
+    <img src="download.jpg" width="80px" height="80px"/>
+    <!-- <h1> I am a Header </h1>
+    <h1> I am a Header </h1>
+    <h1> I am a Header </h1>
+    <h1> I am a Header </h1>
+    <h1> I am a Header </h1>
+    <h1> I am a Header </h1>
+    <h1> I am a Header </h1>
+    <h1> I am a Header </h1>
+    <h1> I am a Header </h1>
+    <h1> I am a Header </h1> -->
+</body>
+</html>
