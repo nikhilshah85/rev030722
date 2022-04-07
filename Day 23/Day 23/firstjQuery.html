@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $("#btnClick").click(function(){
+                var guest = $("#txtGuest").val();
+                alert('Hello and Welcome from JQuery ' + guest);
+            })
+
+            $("#btnCalculate").click(function(){
+
+                var n1 = $("#txtNum1").val();
+                var n2 = $("#txtNum2").val();
+                var addition = parseInt(n1) + parseInt(n2);
+                var subtraction = parseInt(n1) - parseInt(n2);
+                var division = parseInt(n1) / parseInt(n2);
+                var multiplication = parseInt(n1) * parseInt(n2);
+                
+                $("#add").text("Addition is : " + addition);
+                $("#sub").text("Subtraction is : " + subtraction);
+                $("#div").text("Division is : " + division);
+                $("#mul").text("Multiplication is : " + multiplication);
+            })
+
+
+        })
+
+
+    </script>
+</head>
+<body>
+
+    <input type="text" placeholder="Hello and Welcome" id="txtGuest"/>
+    <button id="btnClick"> Click Me</button>
+
+    <hr/>
+
+    <input type="number" placeholder="Enter Number 1" id="txtNum1"/>
+    <input type="number" placeholder="Enter Number 2" id="txtNum2"/>
+    <button id="btnCalculate"> Calculate </button>
+
+    <h3 id="add"></h3>
+    <h3 id="sub"></h3>
+    <h3 id="div"></h3>
+    <h3 id="mul"></h3>
+    
+</body>
+</html>
