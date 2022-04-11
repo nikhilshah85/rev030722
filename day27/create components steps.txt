@@ -1,0 +1,27 @@
+1. create a new folder, employee
+	add 3 files
+		employee.component.ts
+		employee.component.html
+		employee.component.css
+2. program ur .ts file and other files
+3. Register this component in app.module.ts
+4. use the selector where ever u want to as html tag
+
+-------------------------
+Data
+	we deal with 4 types of data here in angular
+		a. plain primitive data type 
+			pId=101;
+			pName = 'Pepsi';
+			pIsInStock = false;
+		b. plain primitive array
+			pCategories = ['Cold-Drink','Shirt','Electronics']
+		c. JSON Object
+			{empNo:101,empName:'John',empDesignation:'Sports',empSalary:6000}
+		d. JSON Object Arrar
+			[
+				{empNo:101,empName:'John',empDesignation:'Sports',empSalary:6000},
+				{empNo:101,empName:'John',empDesignation:'Sports',empSalary:6000},
+				{empNo:101,empName:'John',empDesignation:'Sports',empSalary:6000},
+				{empNo:101,empName:'John',empDesignation:'Sports',empSalary:6000}
+			]
