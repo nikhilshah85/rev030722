@@ -1,0 +1,56 @@
+
+
+
+	1. Read the PPT (make notes)
+	2. Read w3c blog
+
+	Just read - try something if you wish to
+
+
+	OOPS
+	Conditions (if, switch)
+	Collections (data structures)
+	ADO.net
+	Serialization
+	LINQ
+	Develop an REST API application
+
+
+
+
+
+
+
+
+
+
+
+		Customer ---> Place An Order --> Products
+
+		CID		OID		PID
+				CID  PID
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

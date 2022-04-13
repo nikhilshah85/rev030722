@@ -1,0 +1,21 @@
+1. Create new project 
+	ng new service_demo2
+2. open the project in VS Code
+3. delete all the contents from app.component.html
+4. create new dir in the app folder
+	cd src
+	cd app
+	mkdir components
+	mkdir services
+5. in the component folder, lets create 2 components
+	ng g c productslist
+	ng g c addnewproduct
+6. similary, cd..
+	    cd services
+	 ng g s products
+7. in the service, lets create a variable and a function
+
+	Note : when we want to share some functionalities btween multiple components, we use service
+		greetUser() is a function which needs to be used by 5-10 cmponents
+			greetUser() may be 15 - 20 lines of code
+	Note: When u create a new service, it nt refered or registerd anywhere
