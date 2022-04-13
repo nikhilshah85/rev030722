@@ -1,0 +1,12 @@
+Project is based 3 tiers
+a. Normalised Database with
+	SP, triggers, functiocions, tables with all the constraints
+b. Rest API Service with Entity Framework (using LINQ)
+c. Angular APP in front end 
+	typescript, bootstrap, html5, css5
+d. Proper SDLC with documentation and presentation
+
+	Choose a Domain/ProjectName let me know about it by tomorrow after lunch
+	a 1 on 1 with teams in breakout room 
+
+	
