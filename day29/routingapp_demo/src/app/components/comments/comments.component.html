@@ -1,0 +1,15 @@
+
+
+<h1> Comments Data from JSON Placeholder </h1>
+
+<button (click)="getCommentsData()">Get Comments</button>
+
+<table border="1">
+    <tr *ngFor="let c of commentsDataFromJsonPlaceHolder">
+        <td> {{ c.postId }}</td>
+        <td> {{ c.id }}</td>
+        <td> {{ c.name }}</td>
+        <td> {{ c.email }}</td>
+        <td> {{ c.body }}</td>
+    </tr>
+</table>

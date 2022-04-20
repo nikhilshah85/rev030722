@@ -1,0 +1,88 @@
+1. Create a new app with routing
+2. remove everything from app.component.html
+3. create a new component folder inside
+4. add 6-7 components, change their html and css
+5. go to app.module.ts, remove all the registered components, also the import statements
+6. go to app-routing.module.ts
+	register all the path and components in the const route array variable
+  {path:'',component:HomeComponent},
+  {path:'home',component:HomeComponent},
+  {path:'about',component:AboutComponent},
+  {path:'contact',component:ContactComponent},
+  {path:'productlist',component:ProductlistComponent},
+  {path:'addproduct',component:AddproductComponent},
+  {path:'cart',component:CartComponent},
+  {path:'**',component:NotfoundComponent}	
+
+7. in the app.component.html, add all the router links
+	<a routerLink="/home">Home</a> 
+			add other links accordingly
+8. add a new component. login
+	in the html, have login form
+9. register it in the routing module, 
+10. u should have a link on the page called login
+	Test the application
+11. Add 4 more components inside the about component folder
+	Project
+	Teams
+	Organizatin
+	Future
+12. Register the about in app.module.ts
+13. in the about.compnent.html
+	<ul>
+    <li> <a routerLink="about/project"> Project </a></li>
+    <li> <a routerLink="about/teams"> Teams </a></li>
+    <li> <a routerLink="about/organization"> Organization </a></li>
+    <li> <a routerLink="about/future"> Future </a></li>
+</ul>
+
+<div style="background-color: lime;">
+
+    <router-outlet></router-outlet>
+
+</div>
+
+
+14. in the app-routing module, add the children for about
+	
+	
+const routes: Routes = [
+  {path:'',component:HomeComponent},
+  {path:'home',component:HomeComponent},
+  {path:'about',component:AboutComponent,children:[
+    {path:'about/project',component:ProjectComponent},
+    {path:'about/teams',component:TeamComponent},
+    {path:'about/organization',component:OrganizatioonComponent},
+    {path:'about/future',component:FutureComponent},
+  ]},
+  {path:'contact',component:ContactComponent},
+  {path:'productlist',component:ProductlistComponent},
+  {path:'addproduct',component:AddproductComponent},
+  {path:'cart',component:CartComponent},
+  
+]; 
+
+	compile and test the app
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
