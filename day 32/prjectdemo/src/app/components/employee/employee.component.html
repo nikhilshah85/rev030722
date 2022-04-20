@@ -1,0 +1,16 @@
+<p>employee works!</p>
+
+<button (click)="showAllEmployee()"> Show Employees </button>
+
+<table>
+    <tr *ngFor="let e of allEmployee">
+            <td> {{ e.empNo }}</td>
+            <td> {{ e.empDept }}</td>
+            <td> {{ e.empName }}</td>
+            <td> {{ e.empDesignation }}</td>
+            <td> {{ e.empSalary }}</td>
+            <td> {{ e.empSsn }}</td>
+            <td> {{ e.empAge }}</td>
+
+    </tr>
+</table>

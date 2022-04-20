@@ -1,0 +1,7 @@
+<p>deletemp works!</p>
+
+
+<input type="number" placeholder="Enter Emp No to delete data" #empNoForDelete/>
+<button (click)="delteEmpById(empNoForDelete.value)">Delete Employee</button>
+
+<h2>{{delteOperationMessage.error}}</h2>

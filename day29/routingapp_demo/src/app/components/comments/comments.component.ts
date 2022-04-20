@@ -21,7 +21,7 @@ export class CommentsComponent implements OnInit {
   {
       this._http.get('https://jsonplaceholder.typicode.com/comments').subscribe( (mydata)=>{
         this.commentsDataFromJsonPlaceHolder = mydata;
-      });
+  });
 
       
   }
