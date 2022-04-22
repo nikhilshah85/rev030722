@@ -1,0 +1,17 @@
+
+
+<ul>
+  <li><a routerLink="home">Home</a></li>
+  <li><a routerLink="about">About</a></li>
+  <li><a routerLink="reports">Reports</a></li>
+
+  <span *ngIf="_user.isUserLoggedin;else login">
+    <li><a routerLink="logout" > Logout</a></li>
+  </span>
+
+  <ng-template #login>
+  <li><a routerLink="login" > Login</a></li>
+</ng-template>
+</ul>
+
+<router-outlet></router-outlet>
